@@ -94,6 +94,7 @@ body{
     border: 30px #195ebd solid;
     border-radius: 10%;
     overflow: hidden;
+    z-index: 10;
 }
     .slot1{
         position: absolute;
@@ -135,4 +136,70 @@ body{
 
 
 
+#food{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 1000px;
+    height: 800px;
+    z-index: 12;
+}
+.img{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 12%;
+    flex: wrap;
+    display: flex;
+    cursor: grab;
+}
+
+    #pizza{
+        position: absolute;
+        width: 170%;
+    }
+        #onigiri{
+        position: absolute;
+        width: 170%;
+    }
+        #salmon{
+        position: absolute;
+        width: 160%;
+    }
+        #sushi{
+        position: absolute;
+        width: 160%;
+    }
+        #fiheggs{
+        position: absolute;
+        width: 162%;
+    }
+        #milk{
+        position: absolute;
+        width: 122%;
+    }
+        #fihsushi{
+        position: absolute;
+        width: 162%;
+    }
+        #eggtoast{
+        position: absolute;
+        width: 222%;
+    }
+        #chicken{
+        position: absolute;
+        width: 282%;
+    }
+        #rice{
+        position: absolute;
+        width: 222%;
+    }
+        #bread{
+        position: absolute;
+        width: 272%;
+    }
+        #burger{
+        position: absolute;
+        width: 172%;
+    }
 
