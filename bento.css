@@ -24,6 +24,26 @@ body{
 }
 
 
+    @keyframes transitionIn {
+    from {
+        opacity: 0%;
+        transform: rotateY(90deg);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+    #all {
+        animation: transitionIn 2.67s;
+    }
+
+
+
+
    .spoon{
     position: absolute;
     width: 10%;
@@ -61,3 +81,58 @@ body{
     margin-left: -8%;
     top: -3%;
 }
+
+
+#box{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 1000px;
+    height: 800px;
+    background-color: #50a4e4;
+    display: grid;
+    border: 30px #195ebd solid;
+    border-radius: 10%;
+    overflow: hidden;
+}
+    .slot1{
+        position: absolute;
+        width: 32%;
+        height: 43%;
+        background-color: antiquewhite;
+        border-radius: 10%;
+        top: 2%;
+        left: 2%;
+    }
+    .slot2{
+        position: absolute;
+        width: 32%;
+        height: 43%;
+        background-color: antiquewhite;
+        border-radius: 10%;
+        top: 2%;
+        left: 36%;
+    }
+    .slot3{
+        position: absolute;
+        width: 66%;
+        height: 48%;
+        background-color: antiquewhite;
+        border-radius: 10%;
+        top: 50%;
+        left: 2%;
+    }
+    .slot4{
+        position: absolute;
+        width: 34%;
+        height: 105%;
+        background-color: antiquewhite;
+        border-radius: 30%;
+        top: 0%;
+        left: 70%;
+    }
+
+
+
+
+

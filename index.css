@@ -23,6 +23,23 @@ body{
     z-index: 999;
 }
 
+@keyframes transitionIn {
+    from {
+        opacity: 0%;
+        transform: rotateY(90deg);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+#all {
+    animation: transitionIn 2.67s;
+}
+
 
 
 
