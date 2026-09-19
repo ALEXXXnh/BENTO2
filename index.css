@@ -1,11 +1,12 @@
 body{
-    background-color: aliceblue;
+    background-color: #ffff;
     width: 1300px;
-    height: 1000px;
+    height: 800px;
     display: block;
     position: relative;
     font-size: 20%;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: none;
 
 }
 
@@ -13,12 +14,55 @@ body{
 .cursorshi{
     display: flex;
     position: fixed;
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     background-color: transparent;
     top: 0;
     left: 0;
     pointer-events: none;
     z-index: 999;
 }
+
+
+
+
+
+.buttontobentooushi{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    margin-left: 99%;
+    bottom: 17%;
+}
+   .buttontobentooushi:hover{
+    transform: scale(1.16, 1.16);
+    filter: brightness(118%);
+   }
+
+           h2{
+           position: absolute;
+           font-size: 500px;
+           margin-top: 0%;
+           left: 0%;
+           font-family: 'Courier New', Courier, monospace;
+           color: #9297e3;
+           border-color: aliceblue;
+           border-radius: 10%;
+           }
+
+             h2:hover{
+                transform: scale(1, 1.4);
+                filter: brightness(116%);
+             }
+
+           h3{
+           position: absolute;
+           font-size: 50px;
+           margin-top: 60%;
+           left: 0%;
+           font-family: 'Courier New', Courier, monospace;
+           color: #9297e3;
+           border-color: aliceblue;
+           border-radius: 10%;
+           }
 
