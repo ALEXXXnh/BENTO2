@@ -1,6 +1,6 @@
 const board = document.getElementById('box')
 const pieces = document.querySelectorAll('.img')
-const slots = document.querySelectorAll('.slot1, .slot2, .slot3, .slo4')
+const slots = document.querySelectorAll('.slot1, .slot2, .slot3, .slot4 ')
 
 pieces.forEach((piece) => {
     piece.addEventListener('dragstart', (e) => {
@@ -23,6 +23,8 @@ slot.addEventListener('drop', (e) => {
         }
     });
 });
+
+
 
 ///analyzing my life decisions rn
 //im trying to finish this soon, i never used this js features bf btw
