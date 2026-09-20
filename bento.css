@@ -109,6 +109,9 @@ body{
         border-radius: 10%;
         top: 2%;
         left: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .slot2{
         position: absolute;
@@ -118,6 +121,9 @@ body{
         border-radius: 10%;
         top: 2%;
         left: 36%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .slot3{
         position: absolute;
@@ -127,6 +133,9 @@ body{
         border-radius: 10%;
         top: 50%;
         left: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .slot4{
         position: absolute;
@@ -136,7 +145,25 @@ body{
         border-radius: 30%;
         top: 0%;
         left: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
+    
+        .slot1 .img{
+            position: static;
+            width: 5%;
+            top: 0;
+            margin-right: 0;
+            display: flex;
+            object-fit: contain;
+            overflow: hidden;
+        }
+
+
+
+
+
 
 
 
@@ -161,6 +188,9 @@ body{
     .img:active{
     cursor: grabbing;
     }
+        .img:root {
+            position: relative;
+        }
 
        #pizza{
         position: absolute;
@@ -222,6 +252,7 @@ body{
         width: 172%;
 
     }
+
 
 
 .bentobox{
