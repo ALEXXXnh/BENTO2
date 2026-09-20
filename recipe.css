@@ -1,0 +1,156 @@
+body{
+    background-color: #ffff;
+    width: 1300px;
+    height: 800px;
+    display: block;
+    position: relative;
+    font-size: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: auto;
+}
+
+
+.cursorshi{
+    display: flex;
+    position: fixed;
+    width: 16%;
+
+    background-color: transparent;
+    top: 6%;
+    left: 60%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+
+    @keyframes transitionIn {
+    from {
+        opacity: 0%;
+        transform: rotateY(90deg);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+    #all {
+        animation: transitionIn 2.67s;
+    }
+
+
+
+
+   .spoon{
+    position: absolute;
+    width: 10%;
+
+    top: 0%;
+    margin-left: 130%;
+
+    transform: rotateZ(-90deg);
+   }
+     .spoon:hover{
+        transform: rotateZ(-90deg) scale(1.7, 1.7);
+        filter: brightness(112%);
+     }
+
+
+
+      .fork{
+    position: absolute;
+    width: 10%;
+
+    top: -20%;
+    margin-left: 130%;
+
+    transform: rotateZ(-90deg);
+   }
+        .fork:hover{
+        transform: rotateZ(-90deg) scale(1.7, 1.7);
+        filter: brightness(112%);
+     }
+
+
+
+
+     .dec{
+        position: relative;
+        justify-content: space-around;
+     }
+
+     
+     h3{
+        position: relative;
+        width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(0, 0, 49);
+        border: 1% #5062ef solid;
+        text-align: center;
+        left: 45%;
+        top: 0%;
+        padding: 10%;
+     }
+
+
+     .egg{
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        padding: 8%;
+     }
+
+     .text1{
+        text-align: center;
+        left: 45%;
+        top: 0%;
+        padding: 0%;
+     }
+
+    .milk{
+        position: absolute;
+        top: 22%;
+        left: 10%;
+        padding: 8%;
+     }
+
+     .text2{
+        text-align: center;
+        left: 45%;
+        top: 0%;
+        padding: 0%;
+     }
+
+     .quaso{
+        position: absolute;
+        width: 30%;
+        top: 42%;
+        left: 10%;
+        padding: 8%;
+     }
+
+     .text3{
+        text-align: center;
+        left: 45%;
+        top: 0%;
+        padding: 0%;
+     }
+
+     .mochi{
+        position: absolute;
+        width: 30%;
+        top: 62%;
+        left: 10%;
+        padding: 8%;
+     }
+
+     .text4{
+        text-align: center;
+        left: 45%;
+        top: 0%;
+        padding: 0%;
+     }
